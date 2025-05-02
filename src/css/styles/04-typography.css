@@ -1,0 +1,36 @@
+@import '/src/common/mini-reset.css';
+
+:root {
+  font-size: 10px;
+}
+
+.lion {
+  font-size: 10px;
+
+  .like {
+    font-size: 1em;
+    color: red;
+  }
+}
+
+.bootcamp {
+  font-size: 20px;
+
+  .like {
+    font-size: 2rem;
+    color: orange;
+    height: 150%;
+  }
+}
+
+.school {
+  font-weight: 700;
+  .like {
+    font-size: 5vw;
+    color: yellow;
+
+    em {
+      font-style: oblique;
+    }
+  }
+}

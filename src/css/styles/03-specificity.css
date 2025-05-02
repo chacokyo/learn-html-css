@@ -1,0 +1,21 @@
+.wrapper {
+  color: green;
+  border: 1px dotted pink;
+}
+
+#container p {
+  color: bisque;
+}
+
+.wrapper p {
+  color: plum;
+  border: inherit;
+}
+
+p {
+  color: pink !important;
+}
+
+p .ai {
+  color: gray;
+}

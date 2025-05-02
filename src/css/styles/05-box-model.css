@@ -1,0 +1,21 @@
+.lion {
+  background-color: salmon;
+
+  span {
+    background-color: purple;
+    display: block;
+    width: 5em;
+  }
+}
+
+.like {
+  background-color: #ccc;
+  display: inline;
+  width: 5em;
+}
+
+.bootcamp {
+  background-color: #cfc;
+  display: inline-block;
+  width: 300px;
+}
