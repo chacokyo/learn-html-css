@@ -1,5 +1,7 @@
 .lion {
   background-color: salmon;
+  border: 1px dotted pink;
+  padding: 10px;
 
   span {
     background-color: purple;
@@ -18,4 +20,17 @@
   background-color: #cfc;
   display: inline-block;
   width: 300px;
+}
+
+.school {
+  border: 1px solid orange;
+  margin: 10px;
+}
+
+.techit {
+  border: 1px solid pink;
+  padding: 10px;
+  margin: 10px;
+  height: 200px;
+  overflow: auto;
 }
