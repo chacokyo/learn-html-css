@@ -6,3 +6,8 @@ body {
 div {
   font-family: 'Noto Serif', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

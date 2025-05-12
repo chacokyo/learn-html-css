@@ -1,0 +1,21 @@
+@property --text-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #f0c;
+}
+
+:root {
+  --red: #f00;
+  --green: #0f0;
+  --blue: #00f;
+  --pink: #ff55aa;
+}
+
+body {
+  margin: 50px;
+  background-color: #ffc;
+}
+
+a {
+  color: var(--text-color);
+}

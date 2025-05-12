@@ -1,0 +1,57 @@
+/* css 미디어 쿼리 */
+/* 스크린 파일 */
+
+body {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  margin: 50px;
+  color: #fff;
+  background: #000;
+
+  @media (width >= 320px){
+    color: var(--pink);
+    background: var(--blue);
+  }
+  
+  @media (width >= 768px){
+    color: var(--pink);
+    background: var(--black);
+  }
+
+  @media (width >= 1280px){
+    color: var(--pink);
+    background: var(--yellow);
+  }
+}
+
+/* 320px (브레이크 포인트) 이상의 디바이스 -mobile
+@media screen and (min-width:320px) {
+  body {
+    color: var(--pink);
+    background: var(--blue);
+}
+} */
+
+/* 768px 이상의 디바이스 -tablet
+@media screen and (min-width:768px) {
+  body {
+    color: var(--pink);
+    background: var(--black);
+}
+} */
+
+/* 1280 이상의 디바이스 -desktop
+@media screen and (min-width:1280px) {
+  body {
+    color: var(--pink);
+    background: var(--yellow);
+}
+} */
+
+h1 {
+  --spacing: 25px;
+  
+  /* border: 1px solid currentColor; */
+  width: calc(500px + (var(--spacing) * 2));
+  padding: var(--spacing);
+
+}

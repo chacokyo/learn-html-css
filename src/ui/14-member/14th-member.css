@@ -1,0 +1,47 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+}
+
+body {
+  margin: 50px;
+  color: currentColor;
+}
+
+.table-wrapper {
+  block-size: 500px;
+  overflow: auto;
+  
+  table {
+    border: 1px solid currentColor;
+    inline-size: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  th{
+    font-weight: 400;
+  }
+
+  th, td {
+    padding: 1em;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  thead, tfoot {
+    color: var(--white);
+    background: var(--black);
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--gray);
+  }
+}
